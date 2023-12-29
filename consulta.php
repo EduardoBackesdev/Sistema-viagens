@@ -2,7 +2,7 @@
 
 // Conexão com banco de dados
 $pdo = new PDO('mysql:host=localhost;dbname=viagem_sistema', 'root', '');
-// Conexão com banco de dados
+// Conexão com banco de dados hehe
 
 ?>
 
