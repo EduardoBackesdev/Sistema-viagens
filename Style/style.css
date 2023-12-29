@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    text-align: center;
+}
+
+body{
+    background-image: url('https://palacepraia.com.br/wp-content/uploads/2021/10/viajar-de-aviao.jpeg');
+    background-size:cover ;
+}
+
+.sistema{
+    margin: 0px auto;
+    background-color: rgba(184, 188, 188, 0.427);
+    display: flex;
+    width: 50%;
+    height: 50vh;
+    padding: 20px;
+    border-radius: 20px;
+    
+    flex-direction: column;
+}
+.sistema p{
+    text-align: center;
+    margin-top: 30px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.sistema p:hover{
+    color: yellow;
+}
+
+
+.sistema h2{
+    color: yellow;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.destino{
+    height: 35px;
+    font-size: 20px;
+    border-radius: 20px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.sistema input{
+            height: 35px;
+        font-size: 20px;
+        border-radius: 20px;
+        padding-left: 10px;
+        margin-bottom: 10px;
+        border: 1px solid black;
+}
+
+.cadastroViagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 130px;
+    
+}
