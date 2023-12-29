@@ -32,10 +32,9 @@ $pdo = new PDO('mysql:host=localhost;dbname=viagem_sistema', 'root', '');
 
                 <?php
                     if(isset($_POST['acao'])){
-                        $destino = @$_POST['pesquisaDestino'];
+                        $destino = $_POST['pesquisaDestino'];
                         $sql = $pdo->prepare("SELECT * FROM viagens WHERE destino=?");
                         $sql->execute([$destino]);
-
                         $info = $sql->fetchAll();
 
                         foreach ($info as $key => $value) {
